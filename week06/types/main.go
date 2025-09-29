@@ -40,15 +40,24 @@ func main() {
 	// fmt.Println('2', '가')
 
 	// Zero value
-	var f64 float64
-	var t bool
-	var s string
-	var i int16
-	var i16 int16
+	// var 64f float64 //error
+	// var f64 float64
+	// var t bool
+	// var s string
+	// var i int16
+	// var i16 int16
 
+	// fmt.Println(f64, reflect.TypeOf(f64))
+	// fmt.Println(t, reflect.TypeOf(t))
+	// fmt.Println(s, reflect.TypeOf(s))
+	// fmt.Println(i, reflect.TypeOf(i))
+	// fmt.Println(i16, reflect.TypeOf(i16))
+
+	var f64 float64
+	// totalprice := 1000
+	// total_price := 1000
+	totalPrice := 1000 // 카멜 표기법, Go 언어에서는 암묵적인 관례
+
+	fmt.Println(totalPrice)
 	fmt.Println(f64, reflect.TypeOf(f64))
-	fmt.Println(t, reflect.TypeOf(t))
-	fmt.Println(s, reflect.TypeOf(s))
-	fmt.Println(i, reflect.TypeOf(i))
-	fmt.Println(i16, reflect.TypeOf(i16))
 }

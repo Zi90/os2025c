@@ -7,5 +7,5 @@ func main() {
 	// fmt.Println("Hello", name)
 
 	number := 7
-	fmt.Printf("Number is %d.", number)
+	fmt.Printf("Number is %d.\n", number)
 }

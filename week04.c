@@ -1,2 +1,4 @@
 // #include <studio.h>
-// main()
+// main(){
+// return 0;
+//}
