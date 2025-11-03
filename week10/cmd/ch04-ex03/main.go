@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
-	"week10/pkg/keyboard"
+	"os2025c/pkg/keyboard"
 )
 
 func main() {
@@ -14,5 +14,5 @@ func main() {
 	}
 	var celsius float64
 	celsius = (fahrenheit - 32) * 5 / 9
-	fmt.Printf("화씨 %.2f도는 섭씨 %.2f도 입니다.", fahrengeit, celsius)
+	fmt.Printf("화씨 %.2f도는 섭씨 %.2f도 입니다.", fahrenheit, celsius)
 }
