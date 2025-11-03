@@ -1,11 +1,11 @@
-package deutsch
+package korean
 
 import "fmt"
 
-func Hallo() {
-	fmt.Println("Hallo!")
+func Anyunghaseyo() {
+	fmt.Println("안녕하세요!")
 }
 
-func GutenTag() {
-	fmt.Println("Guten Tag!")
+func Anyung() {
+	fmt.Println("안녕!")
 }

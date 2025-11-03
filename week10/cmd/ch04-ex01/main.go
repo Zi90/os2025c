@@ -1,6 +1,6 @@
 package main
 
-import "week10/pkg/greeting"
+import "os2025c/pkg/greeting"
 
 //import "greeting" // custom package(standard path)
 

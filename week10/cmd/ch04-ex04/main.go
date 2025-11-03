@@ -1,6 +1,10 @@
 package main
 
-import "week10/pkg/greeting"
+import (
+	"os2025c/pkg/greeting"
+	"os2025c/pkg/greeting/deutsch"
+	"os2025c/pkg/greeting/korean"
+)
 
 //import "greeting" // custom package(standard path)
 
