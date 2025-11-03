@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
-	"week10/pkg/keyboard"
+	"os2025c/pkg/keyboard"
 )
 
 func main() {
