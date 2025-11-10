@@ -38,7 +38,11 @@ func main() {
 		log.Fatal(err)
 	}
 	sum := 0.0
-	for i :=
+	for i := 0; i < len(weights); i++ {
+		sum = sum + weights[i]
+	}
+	weeks := float64(len(weights))
+	fmt.Println("평균 고기 소비량 : ", sum/weeks)
 	// file, err := os.Open("scores.txt")
 	// if err != nil {
 	// 	log.Fatal(err)
