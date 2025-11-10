@@ -10,8 +10,10 @@ func main() {
 	// subjects[2] = "Python"
 	subjects := [4]string{"Go", "Javascript", "Python", "Linux"}
 	subjectsSlice := subjects[:3]
-	// subjects[0] = "Java"
-	subjectsSlice[0] = "Database"
+	subjects[0] = "Java"
+	// subjectsSlice[0] = "Database"
+	subjectsSlice = append(subjectsSlice, "Go") // 1.append("Go")
+	// subjectsSlice = append(subjectsSlice, "Go", "DB")
 	for _, subject := range subjects {
 		fmt.Println(subject)
 	}
