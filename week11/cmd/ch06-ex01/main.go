@@ -8,8 +8,10 @@ func main() {
 	// subjects := make([]string, 3)
 	// subjects[0] = "Go"
 	// subjects[2] = "Python"
-	subjects := []string{"Go", "Javascript", "Python", "Linux"}
-	subjectsSlice := subjects[1:3] //slicing
+	subjects := [4]string{"Go", "Javascript", "Python", "Linux"}
+	subjectsSlice := subjects[:3]
+	// subjects[0] = "Java"
+	subjectsSlice[0] = "Database"
 	for _, subject := range subjects {
 		fmt.Println(subject)
 	}
