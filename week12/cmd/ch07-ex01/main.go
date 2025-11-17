@@ -29,11 +29,14 @@ func main() {
 	// 	}
 	// }
 
+	// for i, name := range names {
+	// 	fmt.Println(name, ":", counts[i])
+	// }
+
 	counts := make(map[string]int)
 	for _, line := range lines {
 		counts[line]++
 	}
-
 	for name, count := range counts {
 		fmt.Println(name, ":", count)
 	}
