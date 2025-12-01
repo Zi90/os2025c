@@ -6,6 +6,12 @@ import (
 )
 
 func main() {
+	// Last In First Out
+	defer fmt.Println("1st defer")
+	defer fmt.Println("2nd defer")
+	defer fmt.Println("3rd defer")
+	fmt.Println("main.logic")
+
 	file, err := os.Open("test.txt")
 	if err != nil {
 		fmt.Println("파일 오픈 실패:", err)
