@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"log"
-	"week13/pkg/caleder"
+	"week13/pkg/calender"
 )
 
 func main() {
-	today := caleder.Event{} // Date가 임베딩되어 있음
+	today := calender.Event{} // Date가 임베딩되어 있음
 
 	// err := today.SetTitle("Go Final Exam D-14..................")
 	err := today.SetTitle("Go Final Exam D-14")
